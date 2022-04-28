@@ -14,7 +14,7 @@ import com.app.dto.Response;
 @RequestMapping
 public class Example_one {
 	//"data": [“A”,”1”,”334”,”4”,”R”]
-	@PostMapping("/example1")
+	@PostMapping("/bfhl")
 	public Response example1(@RequestBody Request req) {
 		Response response=new Response();
 		System.out.println(Arrays.toString(req.getAlphabets()));
